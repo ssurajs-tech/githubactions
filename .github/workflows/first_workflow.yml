@@ -42,3 +42,5 @@ jobs:
 
     - name: Show Uptime
       run: uptime
+    - name: Show Disk Usage
+      run: df -h
