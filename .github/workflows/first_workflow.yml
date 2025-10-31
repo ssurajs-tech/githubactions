@@ -44,3 +44,5 @@ jobs:
       run: uptime
     - name: Show Disk Usage
       run: df -h
+    - name: Dependent Job End
+      run: echo "Dependent job finished."
